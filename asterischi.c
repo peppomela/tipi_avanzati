@@ -6,15 +6,13 @@ int main()
     intervallo.tv_sec = 0;
     intervallo.tv_nsec = 700*1000*1000;
     
-    char asterisco='*';
-    
-    printf("%c",asterisco);
+    puts("*");
     nanosleep(&intervallo, NULL);
 
-    printf("%c",asterisco);
+    puts("*");
     nanosleep(&intervallo, NULL);
     
-    printf("%c",asterisco);
+    puts("*");
     nanosleep(&intervallo, NULL);
     
     return 0;
